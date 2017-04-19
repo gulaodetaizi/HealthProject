@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="53" id="KGk-i7-Jjw" customClass="BLSegmentCell" customModule="Bodylogical" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="309" height="52.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GYQ-Xg-pg6">
+                        <rect key="frame" x="54.5" y="10" width="200" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="uQI-Ko-L2P"/>
+                            <constraint firstAttribute="height" constant="30" id="wE1-Bt-xR2"/>
+                        </constraints>
+                        <segments>
+                            <segment title="Active calories"/>
+                            <segment title="Exercise level"/>
+                        </segments>
+                        <color key="tintColor" red="0.96078431369999995" green="0.095796487390000004" blue="0.21528214349999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </segmentedControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GYQ-Xg-pg6" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5xC-1x-8w0"/>
+                    <constraint firstAttribute="bottom" secondItem="GYQ-Xg-pg6" secondAttribute="bottom" priority="750" constant="10" id="Aw3-h7-Xni"/>
+                    <constraint firstItem="GYQ-Xg-pg6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WPK-ui-g8v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="27.5" y="114.5"/>
+        </tableViewCell>
+    </objects>
+</document>

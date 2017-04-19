@@ -15,6 +15,55 @@
 		02864F7F1EA73A0F004A1000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02864F7D1EA73A0F004A1000 /* LaunchScreen.storyboard */; };
 		02864F8A1EA73A0F004A1000 /* BodylogicalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F891EA73A0F004A1000 /* BodylogicalTests.swift */; };
 		02864F951EA73A0F004A1000 /* BodylogicalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F941EA73A0F004A1000 /* BodylogicalUITests.swift */; };
+		02864FE91EA73C1D004A1000 /* BLBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FA41EA73C1D004A1000 /* BLBaseNavigationController.swift */; };
+		02864FEA1EA73C1D004A1000 /* BLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FA51EA73C1D004A1000 /* BLConstant.swift */; };
+		02864FEB1EA73C1D004A1000 /* BLConstantString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FA61EA73C1D004A1000 /* BLConstantString.swift */; };
+		02864FEC1EA73C1D004A1000 /* BLPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FA71EA73C1D004A1000 /* BLPickerViewController.swift */; };
+		02864FED1EA73C1D004A1000 /* BLPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FA81EA73C1D004A1000 /* BLPickerViewController.xib */; };
+		02864FEE1EA73C1D004A1000 /* BLRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FA91EA73C1D004A1000 /* BLRoundButton.swift */; };
+		02864FEF1EA73C1D004A1000 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FAC1EA73C1D004A1000 /* String.swift */; };
+		02864FF01EA73C1D004A1000 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FAD1EA73C1D004A1000 /* UITableView.swift */; };
+		02864FF11EA73C1D004A1000 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FAE1EA73C1D004A1000 /* UITableViewCell.swift */; };
+		02864FF21EA73C1D004A1000 /* BLHealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FB21EA73C1D004A1000 /* BLHealthKitManager.swift */; };
+		02864FF31EA73C1D004A1000 /* BLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FB31EA73C1D004A1000 /* BLManager.swift */; };
+		02864FF41EA73C1D004A1000 /* BLPersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FB51EA73C1D004A1000 /* BLPersonInfo.swift */; };
+		02864FF51EA73C1D004A1000 /* BLSleepAnalysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FB61EA73C1D004A1000 /* BLSleepAnalysisModel.swift */; };
+		02864FF61EA73C1D004A1000 /* BLConnectAppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FBA1EA73C1D004A1000 /* BLConnectAppleViewController.swift */; };
+		02864FF71EA73C1D004A1000 /* BLConnectAppleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FBB1EA73C1D004A1000 /* BLConnectAppleViewController.xib */; };
+		02864FF81EA73C1D004A1000 /* BLCreateAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FBC1EA73C1D004A1000 /* BLCreateAccountTableViewController.swift */; };
+		02864FF91EA73C1D004A1000 /* BLCreateAccountTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FBD1EA73C1D004A1000 /* BLCreateAccountTableViewController.xib */; };
+		02864FFA1EA73C1D004A1000 /* BLHealthAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FBE1EA73C1D004A1000 /* BLHealthAccessViewController.swift */; };
+		02864FFB1EA73C1D004A1000 /* BLHealthAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FBF1EA73C1D004A1000 /* BLHealthAccessViewController.xib */; };
+		02864FFC1EA73C1D004A1000 /* BLCreateAccountButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FC11EA73C1D004A1000 /* BLCreateAccountButtonCell.swift */; };
+		02864FFD1EA73C1D004A1000 /* BLCreateAccountButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FC21EA73C1D004A1000 /* BLCreateAccountButtonCell.xib */; };
+		02864FFE1EA73C1D004A1000 /* BLDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FC31EA73C1D004A1000 /* BLDescriptionCell.swift */; };
+		02864FFF1EA73C1D004A1000 /* BLDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FC41EA73C1D004A1000 /* BLDescriptionCell.xib */; };
+		028650001EA73C1D004A1000 /* BLHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FC51EA73C1D004A1000 /* BLHeaderView.swift */; };
+		028650011EA73C1D004A1000 /* BLHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FC61EA73C1D004A1000 /* BLHeaderView.xib */; };
+		028650021EA73C1D004A1000 /* BLHeartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FC71EA73C1D004A1000 /* BLHeartCell.swift */; };
+		028650031EA73C1D004A1000 /* BLHeartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FC81EA73C1D004A1000 /* BLHeartCell.xib */; };
+		028650041EA73C1D004A1000 /* BLInputInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FC91EA73C1D004A1000 /* BLInputInfoCell.swift */; };
+		028650051EA73C1D004A1000 /* BLInputInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FCA1EA73C1D004A1000 /* BLInputInfoCell.xib */; };
+		028650061EA73C1D004A1000 /* BLLogoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FCB1EA73C1D004A1000 /* BLLogoCell.swift */; };
+		028650071EA73C1D004A1000 /* BLLogoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FCC1EA73C1D004A1000 /* BLLogoCell.xib */; };
+		028650081EA73C1D004A1000 /* BLPersonalDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FCD1EA73C1D004A1000 /* BLPersonalDataCell.swift */; };
+		028650091EA73C1D004A1000 /* BLPersonalDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FCE1EA73C1D004A1000 /* BLPersonalDataCell.xib */; };
+		0286500A1EA73C1D004A1000 /* BLSegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FCF1EA73C1D004A1000 /* BLSegmentCell.swift */; };
+		0286500B1EA73C1D004A1000 /* BLSegmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FD01EA73C1D004A1000 /* BLSegmentCell.xib */; };
+		0286500C1EA73C1D004A1000 /* BLGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FD21EA73C1D004A1000 /* BLGoalsViewController.swift */; };
+		0286500D1EA73C1D004A1000 /* BLGoalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FD31EA73C1D004A1000 /* BLGoalsViewController.xib */; };
+		0286500E1EA73C1D004A1000 /* BLAddressBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FD51EA73C1D004A1000 /* BLAddressBookCell.swift */; };
+		0286500F1EA73C1D004A1000 /* BLAddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FD61EA73C1D004A1000 /* BLAddressBookCell.xib */; };
+		028650101EA73C1D004A1000 /* BLInsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FD81EA73C1D004A1000 /* BLInsightsViewController.swift */; };
+		028650111EA73C1D004A1000 /* BLInsightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FD91EA73C1D004A1000 /* BLInsightsViewController.xib */; };
+		028650121EA73C1D004A1000 /* BLInterventionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FDC1EA73C1D004A1000 /* BLInterventionsViewController.swift */; };
+		028650131EA73C1D004A1000 /* BLInterventionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FDD1EA73C1D004A1000 /* BLInterventionsViewController.xib */; };
+		028650141EA73C1D004A1000 /* BLLoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FE01EA73C1D004A1000 /* BLLoginTableViewController.swift */; };
+		028650151EA73C1D004A1000 /* BLProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864FE21EA73C1D004A1000 /* BLProfileViewController.swift */; };
+		028650161EA73C1D004A1000 /* BLProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02864FE31EA73C1D004A1000 /* BLProfileViewController.xib */; };
+		028650191EA73C69004A1000 /* BLMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028650171EA73C69004A1000 /* BLMainTabBarController.swift */; };
+		0286501A1EA73C69004A1000 /* BLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028650181EA73C69004A1000 /* BLUtilities.swift */; };
+		0286501D1EA73D75004A1000 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0286501C1EA73D75004A1000 /* HealthKit.framework */; };
 		053E9680B71E50B1990547AF /* Pods_Bodylogical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +99,56 @@
 		02864F901EA73A0F004A1000 /* BodylogicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodylogicalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02864F941EA73A0F004A1000 /* BodylogicalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodylogicalUITests.swift; sourceTree = "<group>"; };
 		02864F961EA73A0F004A1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02864FA41EA73C1D004A1000 /* BLBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLBaseNavigationController.swift; sourceTree = "<group>"; };
+		02864FA51EA73C1D004A1000 /* BLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLConstant.swift; sourceTree = "<group>"; };
+		02864FA61EA73C1D004A1000 /* BLConstantString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLConstantString.swift; sourceTree = "<group>"; };
+		02864FA71EA73C1D004A1000 /* BLPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLPickerViewController.swift; sourceTree = "<group>"; };
+		02864FA81EA73C1D004A1000 /* BLPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLPickerViewController.xib; sourceTree = "<group>"; };
+		02864FA91EA73C1D004A1000 /* BLRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLRoundButton.swift; sourceTree = "<group>"; };
+		02864FAC1EA73C1D004A1000 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		02864FAD1EA73C1D004A1000 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		02864FAE1EA73C1D004A1000 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		02864FB21EA73C1D004A1000 /* BLHealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLHealthKitManager.swift; sourceTree = "<group>"; };
+		02864FB31EA73C1D004A1000 /* BLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLManager.swift; sourceTree = "<group>"; };
+		02864FB51EA73C1D004A1000 /* BLPersonInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLPersonInfo.swift; sourceTree = "<group>"; };
+		02864FB61EA73C1D004A1000 /* BLSleepAnalysisModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLSleepAnalysisModel.swift; sourceTree = "<group>"; };
+		02864FBA1EA73C1D004A1000 /* BLConnectAppleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLConnectAppleViewController.swift; sourceTree = "<group>"; };
+		02864FBB1EA73C1D004A1000 /* BLConnectAppleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLConnectAppleViewController.xib; sourceTree = "<group>"; };
+		02864FBC1EA73C1D004A1000 /* BLCreateAccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLCreateAccountTableViewController.swift; sourceTree = "<group>"; };
+		02864FBD1EA73C1D004A1000 /* BLCreateAccountTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLCreateAccountTableViewController.xib; sourceTree = "<group>"; };
+		02864FBE1EA73C1D004A1000 /* BLHealthAccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLHealthAccessViewController.swift; sourceTree = "<group>"; };
+		02864FBF1EA73C1D004A1000 /* BLHealthAccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLHealthAccessViewController.xib; sourceTree = "<group>"; };
+		02864FC11EA73C1D004A1000 /* BLCreateAccountButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLCreateAccountButtonCell.swift; sourceTree = "<group>"; };
+		02864FC21EA73C1D004A1000 /* BLCreateAccountButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLCreateAccountButtonCell.xib; sourceTree = "<group>"; };
+		02864FC31EA73C1D004A1000 /* BLDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLDescriptionCell.swift; sourceTree = "<group>"; };
+		02864FC41EA73C1D004A1000 /* BLDescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLDescriptionCell.xib; sourceTree = "<group>"; };
+		02864FC51EA73C1D004A1000 /* BLHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLHeaderView.swift; sourceTree = "<group>"; };
+		02864FC61EA73C1D004A1000 /* BLHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLHeaderView.xib; sourceTree = "<group>"; };
+		02864FC71EA73C1D004A1000 /* BLHeartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLHeartCell.swift; sourceTree = "<group>"; };
+		02864FC81EA73C1D004A1000 /* BLHeartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLHeartCell.xib; sourceTree = "<group>"; };
+		02864FC91EA73C1D004A1000 /* BLInputInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLInputInfoCell.swift; sourceTree = "<group>"; };
+		02864FCA1EA73C1D004A1000 /* BLInputInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLInputInfoCell.xib; sourceTree = "<group>"; };
+		02864FCB1EA73C1D004A1000 /* BLLogoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLLogoCell.swift; sourceTree = "<group>"; };
+		02864FCC1EA73C1D004A1000 /* BLLogoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLLogoCell.xib; sourceTree = "<group>"; };
+		02864FCD1EA73C1D004A1000 /* BLPersonalDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLPersonalDataCell.swift; sourceTree = "<group>"; };
+		02864FCE1EA73C1D004A1000 /* BLPersonalDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLPersonalDataCell.xib; sourceTree = "<group>"; };
+		02864FCF1EA73C1D004A1000 /* BLSegmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLSegmentCell.swift; sourceTree = "<group>"; };
+		02864FD01EA73C1D004A1000 /* BLSegmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLSegmentCell.xib; sourceTree = "<group>"; };
+		02864FD21EA73C1D004A1000 /* BLGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGoalsViewController.swift; sourceTree = "<group>"; };
+		02864FD31EA73C1D004A1000 /* BLGoalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLGoalsViewController.xib; sourceTree = "<group>"; };
+		02864FD51EA73C1D004A1000 /* BLAddressBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLAddressBookCell.swift; sourceTree = "<group>"; };
+		02864FD61EA73C1D004A1000 /* BLAddressBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLAddressBookCell.xib; sourceTree = "<group>"; };
+		02864FD81EA73C1D004A1000 /* BLInsightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLInsightsViewController.swift; sourceTree = "<group>"; };
+		02864FD91EA73C1D004A1000 /* BLInsightsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLInsightsViewController.xib; sourceTree = "<group>"; };
+		02864FDC1EA73C1D004A1000 /* BLInterventionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLInterventionsViewController.swift; sourceTree = "<group>"; };
+		02864FDD1EA73C1D004A1000 /* BLInterventionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLInterventionsViewController.xib; sourceTree = "<group>"; };
+		02864FE01EA73C1D004A1000 /* BLLoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLLoginTableViewController.swift; sourceTree = "<group>"; };
+		02864FE21EA73C1D004A1000 /* BLProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLProfileViewController.swift; sourceTree = "<group>"; };
+		02864FE31EA73C1D004A1000 /* BLProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLProfileViewController.xib; sourceTree = "<group>"; };
+		028650171EA73C69004A1000 /* BLMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLMainTabBarController.swift; sourceTree = "<group>"; };
+		028650181EA73C69004A1000 /* BLUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLUtilities.swift; sourceTree = "<group>"; };
+		0286501B1EA73D75004A1000 /* Bodylogical.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bodylogical.entitlements; sourceTree = "<group>"; };
+		0286501C1EA73D75004A1000 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		4590A471956CE4F1E5287DF1 /* Pods-Bodylogical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodylogical.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical.debug.xcconfig"; sourceTree = "<group>"; };
 		6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodylogical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA2A468CE7D67B3E8D7FC92 /* Pods-Bodylogical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodylogical.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				053E9680B71E50B1990547AF /* Pods_Bodylogical.framework in Frameworks */,
+				0286501D1EA73D75004A1000 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +206,14 @@
 		02864F701EA73A0F004A1000 /* Bodylogical */ = {
 			isa = PBXGroup;
 			children = (
+				0286501B1EA73D75004A1000 /* Bodylogical.entitlements */,
+				028650171EA73C69004A1000 /* BLMainTabBarController.swift */,
+				028650181EA73C69004A1000 /* BLUtilities.swift */,
+				02864FA21EA73C1D004A1000 /* Classes */,
+				02864FE51EA73C1D004A1000 /* Extension */,
+				02864FE61EA73C1D004A1000 /* Managers */,
+				02864FE71EA73C1D004A1000 /* Resources */,
+				02864FE81EA73C1D004A1000 /* ThirdParty */,
 				02864F711EA73A0F004A1000 /* AppDelegate.swift */,
 				02864F731EA73A0F004A1000 /* ViewController.swift */,
 				02864F751EA73A0F004A1000 /* Main.storyboard */,
@@ -135,9 +243,251 @@
 			path = BodylogicalUITests;
 			sourceTree = "<group>";
 		};
+		02864FA21EA73C1D004A1000 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02864FA31EA73C1D004A1000 /* Common */,
+				02864FAA1EA73C1D004A1000 /* Extension */,
+				02864FAF1EA73C1D004A1000 /* insights */,
+				02864FB01EA73C1D004A1000 /* interventions */,
+				02864FB11EA73C1D004A1000 /* Managers */,
+				02864FB41EA73C1D004A1000 /* Models */,
+				02864FB71EA73C1D004A1000 /* Modules */,
+				02864FE41EA73C1D004A1000 /* ThirdParty */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		02864FA31EA73C1D004A1000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				02864FA41EA73C1D004A1000 /* BLBaseNavigationController.swift */,
+				02864FA51EA73C1D004A1000 /* BLConstant.swift */,
+				02864FA61EA73C1D004A1000 /* BLConstantString.swift */,
+				02864FA71EA73C1D004A1000 /* BLPickerViewController.swift */,
+				02864FA81EA73C1D004A1000 /* BLPickerViewController.xib */,
+				02864FA91EA73C1D004A1000 /* BLRoundButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		02864FAA1EA73C1D004A1000 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02864FAB1EA73C1D004A1000 /* Managers */,
+				02864FAC1EA73C1D004A1000 /* String.swift */,
+				02864FAD1EA73C1D004A1000 /* UITableView.swift */,
+				02864FAE1EA73C1D004A1000 /* UITableViewCell.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		02864FAB1EA73C1D004A1000 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		02864FAF1EA73C1D004A1000 /* insights */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = insights;
+			sourceTree = "<group>";
+		};
+		02864FB01EA73C1D004A1000 /* interventions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interventions;
+			sourceTree = "<group>";
+		};
+		02864FB11EA73C1D004A1000 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				02864FB21EA73C1D004A1000 /* BLHealthKitManager.swift */,
+				02864FB31EA73C1D004A1000 /* BLManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		02864FB41EA73C1D004A1000 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02864FB51EA73C1D004A1000 /* BLPersonInfo.swift */,
+				02864FB61EA73C1D004A1000 /* BLSleepAnalysisModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02864FB71EA73C1D004A1000 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				02864FB81EA73C1D004A1000 /* CreateAccount */,
+				02864FD11EA73C1D004A1000 /* Goals */,
+				02864FD71EA73C1D004A1000 /* insights */,
+				02864FDB1EA73C1D004A1000 /* interventions */,
+				02864FDF1EA73C1D004A1000 /* Login */,
+				02864FE11EA73C1D004A1000 /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		02864FB81EA73C1D004A1000 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				02864FB91EA73C1D004A1000 /* Controllers */,
+				02864FC01EA73C1D004A1000 /* Views */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		02864FB91EA73C1D004A1000 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				02864FBA1EA73C1D004A1000 /* BLConnectAppleViewController.swift */,
+				02864FBB1EA73C1D004A1000 /* BLConnectAppleViewController.xib */,
+				02864FBC1EA73C1D004A1000 /* BLCreateAccountTableViewController.swift */,
+				02864FBD1EA73C1D004A1000 /* BLCreateAccountTableViewController.xib */,
+				02864FBE1EA73C1D004A1000 /* BLHealthAccessViewController.swift */,
+				02864FBF1EA73C1D004A1000 /* BLHealthAccessViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		02864FC01EA73C1D004A1000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02864FC11EA73C1D004A1000 /* BLCreateAccountButtonCell.swift */,
+				02864FC21EA73C1D004A1000 /* BLCreateAccountButtonCell.xib */,
+				02864FC31EA73C1D004A1000 /* BLDescriptionCell.swift */,
+				02864FC41EA73C1D004A1000 /* BLDescriptionCell.xib */,
+				02864FC51EA73C1D004A1000 /* BLHeaderView.swift */,
+				02864FC61EA73C1D004A1000 /* BLHeaderView.xib */,
+				02864FC71EA73C1D004A1000 /* BLHeartCell.swift */,
+				02864FC81EA73C1D004A1000 /* BLHeartCell.xib */,
+				02864FC91EA73C1D004A1000 /* BLInputInfoCell.swift */,
+				02864FCA1EA73C1D004A1000 /* BLInputInfoCell.xib */,
+				02864FCB1EA73C1D004A1000 /* BLLogoCell.swift */,
+				02864FCC1EA73C1D004A1000 /* BLLogoCell.xib */,
+				02864FCD1EA73C1D004A1000 /* BLPersonalDataCell.swift */,
+				02864FCE1EA73C1D004A1000 /* BLPersonalDataCell.xib */,
+				02864FCF1EA73C1D004A1000 /* BLSegmentCell.swift */,
+				02864FD01EA73C1D004A1000 /* BLSegmentCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02864FD11EA73C1D004A1000 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				02864FD21EA73C1D004A1000 /* BLGoalsViewController.swift */,
+				02864FD31EA73C1D004A1000 /* BLGoalsViewController.xib */,
+				02864FD41EA73C1D004A1000 /* Views */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		02864FD41EA73C1D004A1000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02864FD51EA73C1D004A1000 /* BLAddressBookCell.swift */,
+				02864FD61EA73C1D004A1000 /* BLAddressBookCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02864FD71EA73C1D004A1000 /* insights */ = {
+			isa = PBXGroup;
+			children = (
+				02864FD81EA73C1D004A1000 /* BLInsightsViewController.swift */,
+				02864FD91EA73C1D004A1000 /* BLInsightsViewController.xib */,
+				02864FDA1EA73C1D004A1000 /* interventions */,
+			);
+			path = insights;
+			sourceTree = "<group>";
+		};
+		02864FDA1EA73C1D004A1000 /* interventions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interventions;
+			sourceTree = "<group>";
+		};
+		02864FDB1EA73C1D004A1000 /* interventions */ = {
+			isa = PBXGroup;
+			children = (
+				02864FDC1EA73C1D004A1000 /* BLInterventionsViewController.swift */,
+				02864FDD1EA73C1D004A1000 /* BLInterventionsViewController.xib */,
+				02864FDE1EA73C1D004A1000 /* Goals */,
+			);
+			path = interventions;
+			sourceTree = "<group>";
+		};
+		02864FDE1EA73C1D004A1000 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		02864FDF1EA73C1D004A1000 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				02864FE01EA73C1D004A1000 /* BLLoginTableViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		02864FE11EA73C1D004A1000 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				02864FE21EA73C1D004A1000 /* BLProfileViewController.swift */,
+				02864FE31EA73C1D004A1000 /* BLProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		02864FE41EA73C1D004A1000 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		02864FE51EA73C1D004A1000 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		02864FE61EA73C1D004A1000 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		02864FE71EA73C1D004A1000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02864FE81EA73C1D004A1000 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 		2863E42B0F8DAC41593B61F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0286501C1EA73D75004A1000 /* HealthKit.framework */,
 				6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */,
 			);
 			name = Frameworks;
@@ -217,6 +567,7 @@
 		02864F661EA73A0F004A1000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BL;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Person;
@@ -225,6 +576,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZPR9ULU73M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					02864F841EA73A0F004A1000 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -265,9 +621,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02864FFB1EA73C1D004A1000 /* BLHealthAccessViewController.xib in Resources */,
+				02864FFD1EA73C1D004A1000 /* BLCreateAccountButtonCell.xib in Resources */,
+				028650031EA73C1D004A1000 /* BLHeartCell.xib in Resources */,
+				02864FF71EA73C1D004A1000 /* BLConnectAppleViewController.xib in Resources */,
+				028650071EA73C1D004A1000 /* BLLogoCell.xib in Resources */,
 				02864F7F1EA73A0F004A1000 /* LaunchScreen.storyboard in Resources */,
+				0286500F1EA73C1D004A1000 /* BLAddressBookCell.xib in Resources */,
+				0286500B1EA73C1D004A1000 /* BLSegmentCell.xib in Resources */,
+				02864FFF1EA73C1D004A1000 /* BLDescriptionCell.xib in Resources */,
+				028650091EA73C1D004A1000 /* BLPersonalDataCell.xib in Resources */,
+				028650161EA73C1D004A1000 /* BLProfileViewController.xib in Resources */,
 				02864F7C1EA73A0F004A1000 /* Assets.xcassets in Resources */,
+				028650111EA73C1D004A1000 /* BLInsightsViewController.xib in Resources */,
+				02864FF91EA73C1D004A1000 /* BLCreateAccountTableViewController.xib in Resources */,
+				02864FED1EA73C1D004A1000 /* BLPickerViewController.xib in Resources */,
 				02864F771EA73A0F004A1000 /* Main.storyboard in Resources */,
+				0286500D1EA73C1D004A1000 /* BLGoalsViewController.xib in Resources */,
+				028650051EA73C1D004A1000 /* BLInputInfoCell.xib in Resources */,
+				028650011EA73C1D004A1000 /* BLHeaderView.xib in Resources */,
+				028650131EA73C1D004A1000 /* BLInterventionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +713,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0286501A1EA73C69004A1000 /* BLUtilities.swift in Sources */,
+				02864FFE1EA73C1D004A1000 /* BLDescriptionCell.swift in Sources */,
+				0286500E1EA73C1D004A1000 /* BLAddressBookCell.swift in Sources */,
+				0286500C1EA73C1D004A1000 /* BLGoalsViewController.swift in Sources */,
+				028650141EA73C1D004A1000 /* BLLoginTableViewController.swift in Sources */,
+				0286500A1EA73C1D004A1000 /* BLSegmentCell.swift in Sources */,
+				02864FEE1EA73C1D004A1000 /* BLRoundButton.swift in Sources */,
+				028650061EA73C1D004A1000 /* BLLogoCell.swift in Sources */,
+				02864FF51EA73C1D004A1000 /* BLSleepAnalysisModel.swift in Sources */,
+				02864FE91EA73C1D004A1000 /* BLBaseNavigationController.swift in Sources */,
+				02864FF21EA73C1D004A1000 /* BLHealthKitManager.swift in Sources */,
+				028650191EA73C69004A1000 /* BLMainTabBarController.swift in Sources */,
+				02864FFC1EA73C1D004A1000 /* BLCreateAccountButtonCell.swift in Sources */,
 				02864F741EA73A0F004A1000 /* ViewController.swift in Sources */,
+				02864FF31EA73C1D004A1000 /* BLManager.swift in Sources */,
+				02864FEF1EA73C1D004A1000 /* String.swift in Sources */,
+				02864FEC1EA73C1D004A1000 /* BLPickerViewController.swift in Sources */,
+				02864FF11EA73C1D004A1000 /* UITableViewCell.swift in Sources */,
+				028650001EA73C1D004A1000 /* BLHeaderView.swift in Sources */,
+				028650101EA73C1D004A1000 /* BLInsightsViewController.swift in Sources */,
+				028650021EA73C1D004A1000 /* BLHeartCell.swift in Sources */,
 				02864F721EA73A0F004A1000 /* AppDelegate.swift in Sources */,
+				02864FEA1EA73C1D004A1000 /* BLConstant.swift in Sources */,
+				028650081EA73C1D004A1000 /* BLPersonalDataCell.swift in Sources */,
+				028650151EA73C1D004A1000 /* BLProfileViewController.swift in Sources */,
+				02864FF41EA73C1D004A1000 /* BLPersonInfo.swift in Sources */,
+				02864FF01EA73C1D004A1000 /* UITableView.swift in Sources */,
+				02864FEB1EA73C1D004A1000 /* BLConstantString.swift in Sources */,
+				02864FF61EA73C1D004A1000 /* BLConnectAppleViewController.swift in Sources */,
 				02864F7A1EA73A0F004A1000 /* Bodylogical.xcdatamodeld in Sources */,
+				028650041EA73C1D004A1000 /* BLInputInfoCell.swift in Sources */,
+				02864FFA1EA73C1D004A1000 /* BLHealthAccessViewController.swift in Sources */,
+				02864FF81EA73C1D004A1000 /* BLCreateAccountTableViewController.swift in Sources */,
+				028650121EA73C1D004A1000 /* BLInterventionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,12 +899,14 @@
 			baseConfigurationReference = 4590A471956CE4F1E5287DF1 /* Pods-Bodylogical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bodylogical/Bodylogical.entitlements;
 				DEVELOPMENT_TEAM = ZPR9ULU73M;
 				INFOPLIST_FILE = Bodylogical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Calabash.Bodylogical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -509,12 +915,14 @@
 			baseConfigurationReference = DBA2A468CE7D67B3E8D7FC92 /* Pods-Bodylogical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bodylogical/Bodylogical.entitlements;
 				DEVELOPMENT_TEAM = ZPR9ULU73M;
 				INFOPLIST_FILE = Bodylogical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Calabash.Bodylogical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -595,6 +1003,7 @@
 				02864F9B1EA73A0F004A1000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02864F9C1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +1012,7 @@
 				02864F9E1EA73A0F004A1000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02864F9F1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +1021,7 @@
 				02864FA11EA73A0F004A1000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

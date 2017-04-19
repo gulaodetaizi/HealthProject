@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="KGk-i7-Jjw" customClass="BLPersonalDataCell" customModule="Bodylogical" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FTi-eS-5hu">
+                        <rect key="frame" x="20" y="3" width="45" height="45"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.47843137250000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="dtk-nD-K8N"/>
+                            <constraint firstAttribute="width" constant="45" id="sBX-Gn-N70"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired Insights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb0-a4-NtF">
+                        <rect key="frame" x="73" y="8" width="101" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="10L-ah-Gxu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlA-Oo-iVB">
+                        <rect key="frame" x="220" y="8" width="92" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="Qsg-5M-69x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <state key="normal" title="Select Insights">
+                            <color key="titleColor" red="0.53725490200000003" green="0.53725490200000003" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="69P-1m-3PG" userLabel="lineView">
+                        <rect key="frame" x="20" y="54" width="292" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="2d5-Kl-nqw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FTi-eS-5hu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="7ht-Gt-1Si"/>
+                    <constraint firstAttribute="bottom" secondItem="FTi-eS-5hu" secondAttribute="bottom" priority="750" constant="3" id="8AQ-LC-8Lx"/>
+                    <constraint firstAttribute="bottom" secondItem="69P-1m-3PG" secondAttribute="bottom" id="Hdh-WZ-Owz"/>
+                    <constraint firstAttribute="trailing" secondItem="GlA-Oo-iVB" secondAttribute="trailing" constant="8" id="MWW-b4-jd4"/>
+                    <constraint firstItem="69P-1m-3PG" firstAttribute="leading" secondItem="FTi-eS-5hu" secondAttribute="leading" id="Mni-83-ypn"/>
+                    <constraint firstItem="Yb0-a4-NtF" firstAttribute="centerY" secondItem="FTi-eS-5hu" secondAttribute="centerY" id="OgU-T2-hrU"/>
+                    <constraint firstItem="FTi-eS-5hu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="Vig-cQ-WPJ"/>
+                    <constraint firstItem="GlA-Oo-iVB" firstAttribute="centerY" secondItem="Yb0-a4-NtF" secondAttribute="centerY" id="Y4i-9O-HAE"/>
+                    <constraint firstItem="GlA-Oo-iVB" firstAttribute="trailing" secondItem="69P-1m-3PG" secondAttribute="trailing" id="kLI-Hy-ic0"/>
+                    <constraint firstItem="Yb0-a4-NtF" firstAttribute="leading" secondItem="FTi-eS-5hu" secondAttribute="trailing" constant="8" id="wxG-A4-4ea"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="Yb0-a4-NtF" id="woa-hp-CaI"/>
+                <outlet property="selectButton" destination="GlA-Oo-iVB" id="99y-ti-73C"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="60"/>
+        </tableViewCell>
+    </objects>
+</document>
