@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02864F721EA73A0F004A1000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F711EA73A0F004A1000 /* AppDelegate.swift */; };
+		02864F741EA73A0F004A1000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F731EA73A0F004A1000 /* ViewController.swift */; };
+		02864F771EA73A0F004A1000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02864F751EA73A0F004A1000 /* Main.storyboard */; };
+		02864F7A1EA73A0F004A1000 /* Bodylogical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02864F781EA73A0F004A1000 /* Bodylogical.xcdatamodeld */; };
+		02864F7C1EA73A0F004A1000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02864F7B1EA73A0F004A1000 /* Assets.xcassets */; };
+		02864F7F1EA73A0F004A1000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02864F7D1EA73A0F004A1000 /* LaunchScreen.storyboard */; };
+		02864F8A1EA73A0F004A1000 /* BodylogicalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F891EA73A0F004A1000 /* BodylogicalTests.swift */; };
+		02864F951EA73A0F004A1000 /* BodylogicalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02864F941EA73A0F004A1000 /* BodylogicalUITests.swift */; };
+		053E9680B71E50B1990547AF /* Pods_Bodylogical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02864F861EA73A0F004A1000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02864F661EA73A0F004A1000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02864F6D1EA73A0F004A1000;
+			remoteInfo = Bodylogical;
+		};
+		02864F911EA73A0F004A1000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02864F661EA73A0F004A1000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02864F6D1EA73A0F004A1000;
+			remoteInfo = Bodylogical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02864F6E1EA73A0F004A1000 /* Bodylogical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodylogical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02864F711EA73A0F004A1000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02864F731EA73A0F004A1000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02864F761EA73A0F004A1000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02864F791EA73A0F004A1000 /* Bodylogical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bodylogical.xcdatamodel; sourceTree = "<group>"; };
+		02864F7B1EA73A0F004A1000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02864F7E1EA73A0F004A1000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02864F801EA73A0F004A1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02864F851EA73A0F004A1000 /* BodylogicalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodylogicalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02864F891EA73A0F004A1000 /* BodylogicalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodylogicalTests.swift; sourceTree = "<group>"; };
+		02864F8B1EA73A0F004A1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02864F901EA73A0F004A1000 /* BodylogicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodylogicalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02864F941EA73A0F004A1000 /* BodylogicalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodylogicalUITests.swift; sourceTree = "<group>"; };
+		02864F961EA73A0F004A1000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4590A471956CE4F1E5287DF1 /* Pods-Bodylogical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodylogical.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical.debug.xcconfig"; sourceTree = "<group>"; };
+		6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodylogical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA2A468CE7D67B3E8D7FC92 /* Pods-Bodylogical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodylogical.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02864F6B1EA73A0F004A1000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053E9680B71E50B1990547AF /* Pods_Bodylogical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F821EA73A0F004A1000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F8D1EA73A0F004A1000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02864F651EA73A0F004A1000 = {
+			isa = PBXGroup;
+			children = (
+				02864F701EA73A0F004A1000 /* Bodylogical */,
+				02864F881EA73A0F004A1000 /* BodylogicalTests */,
+				02864F931EA73A0F004A1000 /* BodylogicalUITests */,
+				02864F6F1EA73A0F004A1000 /* Products */,
+				6EC82B0B74085D294D3F1506 /* Pods */,
+				2863E42B0F8DAC41593B61F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02864F6F1EA73A0F004A1000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02864F6E1EA73A0F004A1000 /* Bodylogical.app */,
+				02864F851EA73A0F004A1000 /* BodylogicalTests.xctest */,
+				02864F901EA73A0F004A1000 /* BodylogicalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02864F701EA73A0F004A1000 /* Bodylogical */ = {
+			isa = PBXGroup;
+			children = (
+				02864F711EA73A0F004A1000 /* AppDelegate.swift */,
+				02864F731EA73A0F004A1000 /* ViewController.swift */,
+				02864F751EA73A0F004A1000 /* Main.storyboard */,
+				02864F7B1EA73A0F004A1000 /* Assets.xcassets */,
+				02864F7D1EA73A0F004A1000 /* LaunchScreen.storyboard */,
+				02864F801EA73A0F004A1000 /* Info.plist */,
+				02864F781EA73A0F004A1000 /* Bodylogical.xcdatamodeld */,
+			);
+			path = Bodylogical;
+			sourceTree = "<group>";
+		};
+		02864F881EA73A0F004A1000 /* BodylogicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				02864F891EA73A0F004A1000 /* BodylogicalTests.swift */,
+				02864F8B1EA73A0F004A1000 /* Info.plist */,
+			);
+			path = BodylogicalTests;
+			sourceTree = "<group>";
+		};
+		02864F931EA73A0F004A1000 /* BodylogicalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02864F941EA73A0F004A1000 /* BodylogicalUITests.swift */,
+				02864F961EA73A0F004A1000 /* Info.plist */,
+			);
+			path = BodylogicalUITests;
+			sourceTree = "<group>";
+		};
+		2863E42B0F8DAC41593B61F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F206419D2A9C7031848C6E0 /* Pods_Bodylogical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EC82B0B74085D294D3F1506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4590A471956CE4F1E5287DF1 /* Pods-Bodylogical.debug.xcconfig */,
+				DBA2A468CE7D67B3E8D7FC92 /* Pods-Bodylogical.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02864F6D1EA73A0F004A1000 /* Bodylogical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02864F991EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "Bodylogical" */;
+			buildPhases = (
+				112C459D457823861B83E51C /* [CP] Check Pods Manifest.lock */,
+				02864F6A1EA73A0F004A1000 /* Sources */,
+				02864F6B1EA73A0F004A1000 /* Frameworks */,
+				02864F6C1EA73A0F004A1000 /* Resources */,
+				3D8666591BCBA6B385734E36 /* [CP] Embed Pods Frameworks */,
+				CD7A3BD401A4FA3C2052FA55 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bodylogical;
+			productName = Bodylogical;
+			productReference = 02864F6E1EA73A0F004A1000 /* Bodylogical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02864F841EA73A0F004A1000 /* BodylogicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02864F9C1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalTests" */;
+			buildPhases = (
+				02864F811EA73A0F004A1000 /* Sources */,
+				02864F821EA73A0F004A1000 /* Frameworks */,
+				02864F831EA73A0F004A1000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02864F871EA73A0F004A1000 /* PBXTargetDependency */,
+			);
+			name = BodylogicalTests;
+			productName = BodylogicalTests;
+			productReference = 02864F851EA73A0F004A1000 /* BodylogicalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02864F8F1EA73A0F004A1000 /* BodylogicalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02864F9F1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalUITests" */;
+			buildPhases = (
+				02864F8C1EA73A0F004A1000 /* Sources */,
+				02864F8D1EA73A0F004A1000 /* Frameworks */,
+				02864F8E1EA73A0F004A1000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02864F921EA73A0F004A1000 /* PBXTargetDependency */,
+			);
+			name = BodylogicalUITests;
+			productName = BodylogicalUITests;
+			productReference = 02864F901EA73A0F004A1000 /* BodylogicalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02864F661EA73A0F004A1000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Person;
+				TargetAttributes = {
+					02864F6D1EA73A0F004A1000 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZPR9ULU73M;
+						ProvisioningStyle = Automatic;
+					};
+					02864F841EA73A0F004A1000 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZPR9ULU73M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02864F6D1EA73A0F004A1000;
+					};
+					02864F8F1EA73A0F004A1000 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZPR9ULU73M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02864F6D1EA73A0F004A1000;
+					};
+				};
+			};
+			buildConfigurationList = 02864F691EA73A0F004A1000 /* Build configuration list for PBXProject "Bodylogical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02864F651EA73A0F004A1000;
+			productRefGroup = 02864F6F1EA73A0F004A1000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02864F6D1EA73A0F004A1000 /* Bodylogical */,
+				02864F841EA73A0F004A1000 /* BodylogicalTests */,
+				02864F8F1EA73A0F004A1000 /* BodylogicalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02864F6C1EA73A0F004A1000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02864F7F1EA73A0F004A1000 /* LaunchScreen.storyboard in Resources */,
+				02864F7C1EA73A0F004A1000 /* Assets.xcassets in Resources */,
+				02864F771EA73A0F004A1000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F831EA73A0F004A1000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F8E1EA73A0F004A1000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112C459D457823861B83E51C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8666591BCBA6B385734E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7A3BD401A4FA3C2052FA55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bodylogical/Pods-Bodylogical-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02864F6A1EA73A0F004A1000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02864F741EA73A0F004A1000 /* ViewController.swift in Sources */,
+				02864F721EA73A0F004A1000 /* AppDelegate.swift in Sources */,
+				02864F7A1EA73A0F004A1000 /* Bodylogical.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F811EA73A0F004A1000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02864F8A1EA73A0F004A1000 /* BodylogicalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02864F8C1EA73A0F004A1000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02864F951EA73A0F004A1000 /* BodylogicalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02864F871EA73A0F004A1000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02864F6D1EA73A0F004A1000 /* Bodylogical */;
+			targetProxy = 02864F861EA73A0F004A1000 /* PBXContainerItemProxy */;
+		};
+		02864F921EA73A0F004A1000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02864F6D1EA73A0F004A1000 /* Bodylogical */;
+			targetProxy = 02864F911EA73A0F004A1000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02864F751EA73A0F004A1000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02864F761EA73A0F004A1000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02864F7D1EA73A0F004A1000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02864F7E1EA73A0F004A1000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02864F971EA73A0F004A1000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02864F981EA73A0F004A1000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02864F9A1EA73A0F004A1000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4590A471956CE4F1E5287DF1 /* Pods-Bodylogical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = Bodylogical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.Bodylogical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02864F9B1EA73A0F004A1000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA2A468CE7D67B3E8D7FC92 /* Pods-Bodylogical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = Bodylogical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.Bodylogical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02864F9D1EA73A0F004A1000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = BodylogicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.BodylogicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bodylogical.app/Bodylogical";
+			};
+			name = Debug;
+		};
+		02864F9E1EA73A0F004A1000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = BodylogicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.BodylogicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bodylogical.app/Bodylogical";
+			};
+			name = Release;
+		};
+		02864FA01EA73A0F004A1000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = BodylogicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.BodylogicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bodylogical;
+			};
+			name = Debug;
+		};
+		02864FA11EA73A0F004A1000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZPR9ULU73M;
+				INFOPLIST_FILE = BodylogicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Calabash.BodylogicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bodylogical;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02864F691EA73A0F004A1000 /* Build configuration list for PBXProject "Bodylogical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02864F971EA73A0F004A1000 /* Debug */,
+				02864F981EA73A0F004A1000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02864F991EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "Bodylogical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02864F9A1EA73A0F004A1000 /* Debug */,
+				02864F9B1EA73A0F004A1000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02864F9C1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02864F9D1EA73A0F004A1000 /* Debug */,
+				02864F9E1EA73A0F004A1000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02864F9F1EA73A0F004A1000 /* Build configuration list for PBXNativeTarget "BodylogicalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02864FA01EA73A0F004A1000 /* Debug */,
+				02864FA11EA73A0F004A1000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02864F781EA73A0F004A1000 /* Bodylogical.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02864F791EA73A0F004A1000 /* Bodylogical.xcdatamodel */,
+			);
+			currentVersion = 02864F791EA73A0F004A1000 /* Bodylogical.xcdatamodel */;
+			path = Bodylogical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02864F661EA73A0F004A1000 /* Project object */;
+}
