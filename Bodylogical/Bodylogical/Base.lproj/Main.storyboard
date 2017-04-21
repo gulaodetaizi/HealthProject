@@ -71,6 +71,7 @@
                                                                 </imageView>
                                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nOD-2l-1ii">
                                                                     <rect key="frame" x="46" y="10" width="241" height="30"/>
+                                                                    <accessibility key="accessibilityConfiguration" identifier="Email address"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="efU-cF-zt5"/>
                                                                     </constraints>

@@ -50,12 +50,15 @@ class BLCreateAccountTableViewController: UITableViewController, UITextFieldDele
             case "Email address":
                 let passwordCell = self.tableView.cellForRow(at: IndexPath(row: 2, section: 0)) as! BLInputInfoCell
                 passwordCell.inputTextField.becomeFirstResponder()
+                passwordCell.inputTextField.accessibilityIdentifier = "Email address"
             case "Enter password":
                 let passwordCell = self.tableView.cellForRow(at: IndexPath(row: 3, section: 0)) as! BLInputInfoCell
                 passwordCell.inputTextField.becomeFirstResponder()
+                passwordCell.inputTextField.accessibilityIdentifier = "Enter password"
             case "Re-enter password":
                 let passwordCell = self.tableView.cellForRow(at: IndexPath(row: 4, section: 0)) as! BLInputInfoCell
                 passwordCell.inputTextField.becomeFirstResponder()
+                passwordCell.inputTextField.accessibilityIdentifier = "Re-enter password"
             default:
                 break
             }
