@@ -25,6 +25,16 @@ class BLUtilities: NSObject {
         }
     }
     
+    class func showAlert2(_ title: String, message: String = "", okName: String = REX_STRING_OK, inViewController: UIViewController?) {
+        let alertView = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alertView.addAction(UIAlertAction(title: okName, style: UIAlertActionStyle.default, handler: nil))
+        if inViewController != nil {
+            DispatchQueue.main.async(execute: {
+                inViewController!.present(alertView, animated: true, completion: nil)
+            })
+        }
+    }
+    
     //Show prompt alert with OK button and call back
     
     class func showOKAlert(_ title: String, message: String, rightName: String = REX_STRING_OK, inViewController: UIViewController?,completion: @escaping (_ result:Bool) -> ()) {
